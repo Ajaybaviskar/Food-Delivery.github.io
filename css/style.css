@@ -137,7 +137,7 @@
 #Client-section::before{
     content: "";
     position: absolute;
-    background-image: url('/bg2.jpg');
+    background-image: url('../bg2.jpg');
     height: 220px;
     width: 100%;
     z-index: -1;
