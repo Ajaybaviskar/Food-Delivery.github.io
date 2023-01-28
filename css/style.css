@@ -1,0 +1,244 @@
+ /* Reset CSS */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;   
+    top: 0px;
+}
+
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;  
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.40;    
+} 
+
+/* Navigation Bar : Logo and Images */  
+#logo{
+    margin: 5px 30px;
+
+}
+#logo img{
+    margin: 4px 3px;
+    height: 85px;
+
+}
+/* Navigation Bar : List Styling */ 
+#navbar{
+    position:relative;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 4px 33px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: aqua;
+
+}
+
+/* Home Section Design */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding: 4px 200px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    background:url('../bg1.jpg') no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width: 100%; 
+    z-index: -1;
+    opacity: 0.8;
+    
+    
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* Services section */
+#services{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#services .box{
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #f2ebeb;
+}
+#services .box img{
+    height: 300px;
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+#services .box:hover{
+    background-color: rgb(175, 203, 212);
+    font-size: 1.rem;
+}
+#Our{
+    font-size: 3rem;
+    color: rgb(151, 183, 21);
+    
+}
+.h-primary .center{
+    color: yellow;
+    margin-top: 100px;
+    margin-left: 40rem;
+    font-size: 2.5rem;
+    /* padding: 10px; */
+
+}
+
+/* Client Section */
+#client-section{
+    
+    position: relative;
+
+
+}
+#Client-section::before{
+    content: "";
+    position: absolute;
+    background-image: url('/bg2.jpg');
+    height: 220px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#Client{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+#Client-item{
+    padding: 40px;
+
+}
+#Client img{
+    height: 80px;
+    padding: 30px;
+}
+/* Contact section */
+#contact{
+    position: relative;
+  
+    
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background: url('/project2/contact.jpg') no-repeat center center/cover ;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+#contact-box input,
+#contact-box textarea,
+#contact-box button{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.1rem;
+}
+#contact-box button{
+    margin-top: 15px;
+    background-color: bisque;
+    font-size: 1.2rem;
+}
+#contact-box button:hover{
+    background-color:rgb(140, 204, 204);
+}
+
+/* input tags  */
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Utility classes */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 12px;
+    border: 2px solid white;
+    color: white; 
+    background-color: brown;
+    margin: 15px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.center{
+    text-align: center;
+}
+
+
+ 
