@@ -10,7 +10,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: sticky;   
+    font-family: 'Aboreto', cursive; 
     top: 0px;
 }
 
@@ -90,7 +90,7 @@
 #home p{
     color: whitesmoke;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 /* Services section */
 #services{
@@ -110,7 +110,7 @@
     height: 300px;
     margin: auto;
     display: block;
-    width: 300px;
+    width: 400px;
 }
 #services .box:hover{
     background-color: rgb(175, 203, 212);
@@ -118,7 +118,7 @@
 }
 #Our{
     font-size: 3rem;
-    color: rgb(151, 183, 21);
+    color: rgb(97 230 230);
     
 }
 .h-primary .center{
@@ -131,11 +131,8 @@
 }
 
 /* Client Section */
-#client-section{
-    
+#client-section{    
     position: relative;
-
-
 }
 #Client-section::before{
     content: "";
@@ -149,13 +146,11 @@
 #Client{
     display: flex;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center;    
 
 }
 #Client-item{
     padding: 40px;
-
 }
 #Client img{
     height: 80px;
@@ -163,9 +158,7 @@
 }
 /* Contact section */
 #contact{
-    position: relative;
-  
-    
+    position: relative;  
     
 }
 #contact::before{
@@ -175,7 +168,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.6;
-    background: url('/project2/contact.jpg') no-repeat center center/cover ;
+    background: url('/contact.jpg') no-repeat center center/cover ;
 
 }
 #contact-box{
@@ -192,6 +185,7 @@
     padding: 0.5rem;
     border-radius: 10px;
     font-size: 1rem;
+    font-family: 'Aboreto', cursive;
 }
 #contact-box form{
     width: 40%;
@@ -199,11 +193,13 @@
 }
 #contact-box label{
     font-size: 1.1rem;
+    font-family: 'Aboreto', cursive;
 }
 #contact-box button{
     margin-top: 15px;
     background-color: bisque;
     font-size: 1.2rem;
+    font-family: 'Aboreto', cursive;
 }
 #contact-box button:hover{
     background-color:rgb(140, 204, 204);
@@ -237,7 +233,8 @@ footer{
 
 }
 .center{
-    text-align: center;
+    text-align: center;    
+    font-family: 'Unbounded', cursive;
 }
 
 

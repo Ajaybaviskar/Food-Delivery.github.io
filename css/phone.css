@@ -11,8 +11,7 @@
 }
 #home{
     padding: 3px 68px;
-    height: 370px;
-     
+    height: 370px;     
 }
 #home::before{
     height: 470px;
